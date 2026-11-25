@@ -52,7 +52,7 @@ Dependency Review examines dependency changes introduced by a pull request. The 
 
 This adds another opportunity to catch risky dependency changes before they reach 'main'. After branch protection is configured, making Dependency Review a required check will prevent a pull request from merging while that check is failing.
 
-## How to reproduce the vulnerable PR demo
+## How to reproduce the vulnerable PR demo.
 
 The vulnerable dependency demonstration is still pending. The following steps describe the planned test and expected behavior.
 
