@@ -1,7 +1,3 @@
-# IA462 Lab 4: Supply-Chain Security
-
-Python and Docker application for the dependency-management lab.
-
 # IA462 Lab 4: Supply Chain Security
 
 This repository contains a small Flask application that runs in a Docker container. I used it to practice managing dependencies, checking for known vulnerabilities, and keeping track of the software included in an image. The container runs as 'appuser' instead of root to limit the permissions available to the application.
@@ -52,7 +48,7 @@ Dependency Review examines dependency changes introduced by a pull request. The 
 
 This adds another opportunity to catch risky dependency changes before they reach 'main'. After branch protection is configured, making Dependency Review a required check will prevent a pull request from merging while that check is failing.
 
-## How to reproduce the vulnerable PR demo
+## How to reproduce the vulnerable PR demo.
 
 The vulnerable dependency demonstration is still pending. The following steps describe the planned test and expected behavior.
 
